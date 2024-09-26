@@ -1,0 +1,129 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    font-family: lexend;
+    margin: 0 auto;
+    background-color: black;
+    background-image: url("../images/porsche-crest.jpg");
+    max-width: 1000px;
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+    background-color: #C29049;
+    border: 4px solid #A43131;
+}
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding: 10px;
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+    font-family: Spline Sans;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+
+#p356{
+    background-color: #C29049;
+    border: 4px solid #402306;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p901 {
+    background-color: #C29049;
+    border: 4px solid #402306;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p930{
+    background-color: #C29049;
+    border: 4px solid #402306;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p993{
+    background-color: #C29049;
+    border: 4px solid #464C47;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p996{
+    background-color: #C29049;
+    border: 4px solid #464C47;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p997{
+    background-color: #C29049;
+    border: 4px solid #464C47;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p991{
+    background-color: #C29049;
+    border: 4px solid #A43131;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p992{
+    background-color: #C29049;
+    border: 4px solid #A43131;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#p918{
+    background-color: #C29049;
+    border: 4px solid #A43131;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
